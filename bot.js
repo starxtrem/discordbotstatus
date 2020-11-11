@@ -7,7 +7,6 @@ const Client = new Discord.Client();
 const express = require('express');
 const Config = require("./config.json");
 const http = require('http');
-const ytdl = require('ytdl-core');
 const fivereborn = require('fivereborn-query');
 
 Client.login(Config.token);
